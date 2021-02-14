@@ -128,7 +128,13 @@ const changeSlide = (index) => {
 }
 
 searchBtn.addEventListener('click', function () {
-  document.getElementById('image-count').innerText = 0;
+  // document.getElementById('image-count').innerText = 0;
+  // document.querySelector('.main').style.display = 'none';
+  // clearInterval(timer);
+  // const search = document.getElementById('search');
+  // getImages(search.value)
+  // sliders.length = 0;
+  console.log('ok');
   document.querySelector('.main').style.display = 'none';
   clearInterval(timer);
   const search = document.getElementById('search');
