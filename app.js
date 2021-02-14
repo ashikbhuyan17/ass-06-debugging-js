@@ -15,7 +15,6 @@ const KEY = '15674931-a9d714b6e9d654524df198e00&q';
 
 // show images 
 const showImages = (images) => {
-  document.getElementById('warning').innerText = '';
   imagesArea.style.display = 'block';
   gallery.innerHTML = '';
   // show gallery title
